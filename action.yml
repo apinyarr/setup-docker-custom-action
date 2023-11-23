@@ -1,7 +1,7 @@
 name: 'Docker Installation'
 description: 'Install Docker Action for Linux'
 outputs:
-  random-number:
+  version:
     description: "Docker version"
     value: ${{ steps.check-docker-version.outputs.version }}
 runs:
