@@ -14,5 +14,5 @@ runs:
     - run: newgrp docker
       shell: bash
     - id: check-docker-version
-      run: echo "version=$(docker version)" >> $GITHUB_OUTPUT
+      run: echo "version=$(sudo docker version)" >> $GITHUB_OUTPUT
       shell: bash
